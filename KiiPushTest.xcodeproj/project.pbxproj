@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		742B567419137789009C0A0F /* KiiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2EC98817A9E86400CB0092 /* KiiSDK.framework */; };
 		CA2EC96917A9E81200CB0092 /* KTAppRater.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2EC92117A9E81200CB0092 /* KTAppRater.m */; };
 		CA2EC96A17A9E81200CB0092 /* kt_login_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CA2EC92417A9E81200CB0092 /* kt_login_bg.png */; };
 		CA2EC96B17A9E81200CB0092 /* kt_login_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA2EC92517A9E81200CB0092 /* kt_login_bg@2x.png */; };
@@ -38,7 +39,6 @@
 		CA2EC98517A9E81200CB0092 /* UIImage+KTUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2EC96217A9E81200CB0092 /* UIImage+KTUtilities.m */; };
 		CA2EC98617A9E81200CB0092 /* UIView+KTUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2EC96517A9E81200CB0092 /* UIView+KTUtilities.m */; };
 		CA2EC98717A9E81200CB0092 /* KTNetworkingUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2EC96717A9E81200CB0092 /* KTNetworkingUtilities.m */; };
-		CA2EC98917A9E86E00CB0092 /* KiiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2EC98817A9E86400CB0092 /* KiiSDK.framework */; };
 		CA2EC98B17A9E89D00CB0092 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2EC98A17A9E89D00CB0092 /* SystemConfiguration.framework */; };
 		CA2EC98D17A9E8A400CB0092 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2EC98C17A9E8A400CB0092 /* MobileCoreServices.framework */; };
 		CA2EC98F17A9E8BC00CB0092 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2EC98E17A9E8BC00CB0092 /* QuartzCore.framework */; };
@@ -138,11 +138,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				742B567419137789009C0A0F /* KiiSDK.framework in Frameworks */,
 				CA2EC99017A9E8C500CB0092 /* CoreGraphics.framework in Frameworks */,
 				CA2EC98F17A9E8BC00CB0092 /* QuartzCore.framework in Frameworks */,
 				CA2EC98D17A9E8A400CB0092 /* MobileCoreServices.framework in Frameworks */,
 				CA2EC98B17A9E89D00CB0092 /* SystemConfiguration.framework in Frameworks */,
-				CA2EC98917A9E86E00CB0092 /* KiiSDK.framework in Frameworks */,
 				CAEE435B17A9E6E4007BDD41 /* UIKit.framework in Frameworks */,
 				CAEE435D17A9E6E4007BDD41 /* Foundation.framework in Frameworks */,
 			);
@@ -623,7 +623,7 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/Beauchamp/Code/Kii/KiiPushTest-iOS",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KiiPushTest/KiiPushTest-Prefix.pch";
@@ -638,7 +638,7 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/Beauchamp/Code/Kii/KiiPushTest-iOS",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KiiPushTest/KiiPushTest-Prefix.pch";
