@@ -1,0 +1,15 @@
+# Kii Push Test
+Tutrial iOS app instructs how to implement Kii Cloud push notification.
+
+## Set up
+KiiToolkit-iOS is git submodule.
+after cloning the repo please execute following commands.
+
+```sh
+git submodule init
+git submodule update
+```
+
+## Tutrial
+http://documentation.kii.com/en/samples/push-notifications-ios
+
